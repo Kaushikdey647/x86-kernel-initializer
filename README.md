@@ -4,9 +4,12 @@ How would you know if you don't `try`?
 
 ## DESCRIPTION
 
-A ditto walktrhough by-product of the series by [CodePulse](https://www.youtube.com/c/CodePulse). a standard from-scratch xv6 kernel
-
-## TODO
+Guidance credits goes to [CodePulse](https://www.youtube.com/c/CodePulse). This is a 'from-scratch' xv6 bootloader that basically does 3 things:
+- Checks cpuid for cpu architecture.
+- Checks long mode
+- Boots the system
+- Initializes stack memory
+- Prints a few characters onto the screen
 
 ## INSTALL AND USE
 
@@ -24,5 +27,3 @@ A ditto walktrhough by-product of the series by [CodePulse](https://www.youtube.
     - Make the ISO File: `make build-x86_64`
 - After Exiting the environment
     - Boot into qemu: `qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso`
-
-## DEV AND CONTRIBUTE
