@@ -8,7 +8,9 @@ Guidance credits goes to [CodePulse](https://www.youtube.com/c/CodePulse). This 
 - Checks cpuid for cpu architecture.
 - Checks long mode
 - Boots the system
-- Initializes stack memory
+- Initializes page table
+- Enables paging
+- Allocates stack
 - Prints a few characters onto the screen
 
 ## INSTALL AND USE
